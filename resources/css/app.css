@@ -1,0 +1,46 @@
+/*******************************
+    Author : Sibin V M
+    Title : Styles
+    Created Date : 11-06-2022 
+********************************/
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+    .imgShowContainer {
+        width: 50vw;
+    }
+}
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .imgShowContainer {
+        width: 50vw;
+    }
+} 
+
+.box-shadow { 
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.truncate-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card-hover:hover {
+    transform: scale(1.05);
+    transition: all 0.2s linear;
+}
+
+.text-indent {
+    text-indent: 30px
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.btn-hover:hover, .btn-hover:focus {
+    color: white;
+}
